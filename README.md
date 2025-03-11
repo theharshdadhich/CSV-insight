@@ -18,6 +18,14 @@ The backend is built using FastAPI with Polars for data handling, while the fron
 
 ---
 
+## 🛠️ Tech Stack  
+🔹 **Backend:** FastAPI, Polars, Pydantic  
+🔹 **Frontend:** Gradio  
+🔹 **LLM Processing:** Ollama 3.2  
+🔹 **Visualization:** Plotly  
+
+---
+
 ## 🛠️ Installation & Setup
 ### 1️⃣ Clone the Repository
 git clone https://github.com/theharshdadhich/CSV-insight.git
