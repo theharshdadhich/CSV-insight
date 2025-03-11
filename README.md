@@ -56,6 +56,8 @@ File Upload:-
 ![image](https://github.com/user-attachments/assets/1f03164f-9aec-45f0-87db-a0d2c95bb5fa)
 Ask Question:-
 ![image](https://github.com/user-attachments/assets/d1f35f48-54e5-4671-ada1-bbf54d902fa8)
+Plot Graph:-
+![image](https://github.com/user-attachments/assets/6547d4f6-10db-4a3e-a19d-8bcf4c96308e)
 
 
 
