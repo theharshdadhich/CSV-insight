@@ -1,0 +1,86 @@
+result = {
+  "answer": {
+    "data": {
+      "response": "The function requires arguments to be specified."
+    },
+    "_result_tool_name": "final_result",
+    "_state": {
+      "message_history": [
+        {
+          "parts": [
+            {
+              "content": "Answer based on this data:\n       price   area  bedrooms  bathrooms  stories mainroad guestroom basement hotwaterheating airconditioning  parking prefarea furnishingstatus\n0   13300000   7420         4          2        3      yes        no       no              no             yes        2      yes        furnished\n1   12250000   8960         4          4        4      yes        no       no              no             yes        3       no        furnished\n2   12250000   9960         3          2        2      yes        no      yes              no              no        2      yes   semi-furnished\n3   12215000   7500         4          2        2      yes        no      yes              no             yes        3      yes        furnished\n4   11410000   7420         4          1        2      yes       yes      yes              no             yes        2       no        furnished\n5   10850000   7500         3          3        1      yes        no      yes              no             yes        2      yes   semi-furnished\n6   10150000   8580         4          3        4      yes        no       no              no             yes        2      yes   semi-furnished\n7   10150000  16200         5          3        2      yes        no       no              no              no        0       no      unfurnished\n8    9870000   8100         4          1        2      yes       yes      yes              no             yes        2      yes        furnished\n9    9800000   5750         3          2        4      yes       yes       no              no             yes        1      yes      unfurnished\n10   9800000  13200         3          1        2      yes        no      yes              no             yes        2      yes        furnished\n11   9681000   6000         4          3        2      yes       yes      yes             yes              no        2       no   semi-furnished\n12   9310000   6550         4          2        2      yes        no       no              no             yes        1      yes   semi-furnished\n13   9240000   3500         4          2        2      yes        no       no             yes              no        2       no        furnished\n14   9240000   7800         3          2        2      yes        no       no              no              no        0      yes   semi-furnished\n15   9100000   6000         4          1        2      yes        no      yes              no              no        2       no   semi-furnished\n16   9100000   6600         4          2        2      yes       yes      yes              no             yes        1      yes      unfurnished\n17   8960000   8500         3          2        4      yes        no       no              no             yes        2       no        furnished\n18   8890000   4600         3          2        2      yes       yes       no              no             yes        2       no        furnished\n19   8855000   6420         3          2        2      yes        no       no              no             yes        1      yes   semi-furnished\n20   8750000   4320         3          1        2      yes        no      yes             yes              no        2       no   semi-furnished\n21   8680000   7155         3          2        1      yes       yes      yes              no             yes        2       no      unfurnished\n22   8645000   8050         3          1        1      yes       yes      yes              no             yes        1       no        furnished\n23   8645000   4560         3          2        2      yes       yes      yes              no             yes        1       no        furnished\n24   8575000   8800         3          2        2      yes        no       no              no             yes        2       no        furnished\n25   8540000   6540         4          2        2      yes       yes      yes              no             yes        2      yes        furnished\n26   8463000   6000         3          2        4      yes       yes      yes              no             yes        0      yes   semi-furnished\n27   8400000   8875         3          1        1      yes        no       no              no              no        1       no   semi-furnished\n28   8400000   7950         5          2        2      yes        no      yes             yes              no        2       no      unfurnished\n29   8400000   5500         4          2        2      yes        no      yes              no             yes        1      yes   semi-furnished\n30   8400000   7475         3          2        4      yes        no       no              no             yes        2       no      unfurnished\n31   8400000   7000         3          1        4      yes        no       no              no             yes        2       no   semi-furnished\n32   8295000   4880         4          2        2      yes        no       no              no             yes        1      yes        furnished\n33   8190000   5960         3          3        2      yes       yes      yes              no              no        1       no      unfurnished\n34   8120000   6840         5          1        2      yes       yes      yes              no             yes        1       no        furnished\n35   8080940   7000         3          2        4      yes        no       no              no             yes        2       no        furnished\n36   8043000   7482         3          2        3      yes        no       no             yes              no        1      yes        furnished\n37   7980000   9000         4          2        4      yes        no       no              no             yes        2       no        furnished\n38   7962500   6000         3          1        4      yes       yes       no              no             yes        2       no      unfurnished\n39   7910000   6000         4          2        4      yes        no       no              no             yes        1       no   semi-furnished\n40   7875000   6550         3          1        2      yes        no      yes              no             yes        0      yes        furnished\n41   7840000   6360         3          2        4      yes        no       no              no             yes        0      yes        furnished\n42   7700000   6480         3          2        4      yes        no       no              no             yes        2       no      unfurnished\n43   7700000   6000         4          2        4      yes        no       no              no              no        2       no   semi-furnished\n44   7560000   6000         4          2        4      yes        no       no              no             yes        1       no        furnished\n45   7560000   6000         3          2        3      yes        no       no              no             yes        0       no   semi-furnished\n46   7525000   6000         3          2        4      yes        no       no              no             yes        1       no        furnished\n47   7490000   6600         3          1        4      yes        no       no              no             yes        3      yes        furnished\n48   7455000   4300         3          2        2      yes        no      yes              no              no        1       no      unfurnished\n49   7420000   7440         3          2        1      yes       yes      yes              no             yes        0      yes   semi-furnished\n50   7420000   7440         3          2        4      yes        no       no              no              no        1      yes      unfurnished\n51   7420000   6325         3          1        4      yes        no       no              no             yes        1       no      unfurnished\n52   7350000   6000         4          2        4      yes       yes       no              no             yes        1       no        furnished\n53   7350000   5150         3          2        4      yes        no       no              no             yes        2       no   semi-furnished\n54   7350000   6000         3          2        2      yes       yes       no              no             yes        1       no   semi-furnished\n55   7350000   6000         3          1        2      yes        no       no              no             yes        1       no      unfurnished\n56   7343000  11440         4          1        2      yes        no      yes              no              no        1      yes   semi-furnished\n57   7245000   9000         4          2        4      yes       yes       no              no             yes        1      yes        furnished\n58   7210000   7680         4          2        4      yes       yes       no              no             yes        1       no   semi-furnished\n59   7210000   6000         3          2        4      yes       yes       no              no             yes        1       no        furnished\n60   7140000   6000         3          2        2      yes       yes       no              no              no        1       no   semi-furnished\n61   7070000   8880         2          1        1      yes        no       no              no             yes        1       no   semi-furnished\n62   7070000   6240         4          2        2      yes        no       no              no             yes        1       no        furnished\n63   7035000   6360         4          2        3      yes        no       no              no             yes        2      yes        furnished\n64   7000000  11175         3          1        1      yes        no      yes              no             yes        1      yes        furnished\n65   6930000   8880         3          2        2      yes        no      yes              no             yes        1       no        furnished\n66   6930000  13200         2          1        1      yes        no      yes             yes              no        1       no        furnished\n67   6895000   7700         3          2        1      yes        no       no              no              no        2       no      unfurnished\n68   6860000   6000         3          1        1      yes        no       no              no             yes        1       no        furnished\n69   6790000  12090         4          2        2      yes        no       no              no              no        2      yes        furnished\n70   6790000   4000         3          2        2      yes        no      yes              no             yes        0      yes   semi-furnished\n71   6755000   6000         4          2        4      yes        no       no              no             yes        0       no      unfurnished\n72   6720000   5020         3          1        4      yes        no       no              no             yes        0      yes      unfurnished\n73   6685000   6600         2          2        4      yes        no      yes              no              no        0      yes        furnished\n74   6650000   4040         3          1        2      yes        no      yes             yes              no        1       no        furnished\n75   6650000   4260         4          2        2      yes        no       no             yes              no        0       no   semi-furnished\n76   6650000   6420         3          2        3      yes        no       no              no             yes        0      yes        furnished\n77   6650000   6500         3          2        3      yes        no       no              no             yes        0      yes        furnished\n78   6650000   5700         3          1        1      yes       yes      yes              no             yes        2      yes        furnished\n79   6650000   6000         3          2        3      yes       yes       no              no             yes        0       no        furnished\n80   6629000   6000         3          1        2      yes        no       no             yes              no        1      yes   semi-furnished\n81   6615000   4000         3          2        2      yes        no      yes              no             yes        1       no   semi-furnished\n82   6615000  10500         3          2        1      yes        no      yes              no             yes        1      yes        furnished\n83   6580000   6000         3          2        4      yes        no       no              no             yes        0       no   semi-furnished\n84   6510000   3760         3          1        2      yes        no       no             yes              no        2       no   semi-furnished\n85   6510000   8250         3          2        3      yes        no       no              no             yes        0       no        furnished\n86   6510000   6670         3          1        3      yes        no      yes              no              no        0      yes      unfurnished\n87   6475000   3960         3          1        1      yes        no      yes              no              no        2       no   semi-furnished\n88   6475000   7410         3          1        1      yes       yes      yes              no             yes        2      yes      unfurnished\n89   6440000   8580         5          3        2      yes        no       no              no              no        2       no        furnished\n90   6440000   5000         3          1        2      yes        no       no              no             yes        0       no   semi-furnished\n91   6419000   6750         2          1        1      yes       yes      yes              no              no        2      yes        furnished\n92   6405000   4800         3          2        4      yes       yes       no              no             yes        0       no        furnished\n93   6300000   7200         3          2        1      yes        no      yes              no             yes        3       no   semi-furnished\n94   6300000   6000         4          2        4      yes        no       no              no              no        1       no   semi-furnished\n95   6300000   4100         3          2        3      yes        no       no              no             yes        2       no   semi-furnished\n96   6300000   9000         3          1        1      yes        no      yes              no              no        1      yes        furnished\n97   6300000   6400         3          1        1      yes       yes      yes              no             yes        1      yes   semi-furnished\n98   6293000   6600         3          2        3      yes        no       no              no             yes        0      yes      unfurnished\n99   6265000   6000         4          1        3      yes       yes      yes              no              no        0      yes      unfurnished\nQuestion: how many columns?",
+              "timestamp": "2025-03-11T16:59:09.578239+00:00",
+              "part_kind": "user-prompt"
+            }
+          ],
+          "kind": "request"
+        },
+        {
+          "parts": [
+            {
+              "content": "There are 20 columns of data in the table.",
+              "part_kind": "text"
+            }
+          ],
+          "model_name": "llama3.2",
+          "timestamp": "2025-03-11T17:01:57+00:00",
+          "kind": "response"
+        },
+        {
+          "parts": [
+            {
+              "content": "Plain text responses are not permitted, please call one of the functions instead.",
+              "tool_name": None,
+              "tool_call_id": None,
+              "timestamp": "2025-03-11T17:01:58.309998+00:00",
+              "part_kind": "retry-prompt"
+            }
+          ],
+          "kind": "request"
+        },
+        {
+          "parts": [
+            {
+              "content": "",
+              "part_kind": "text"
+            },
+            {
+              "tool_name": "final_result",
+              "args": "{\"response\":\"The function requires arguments to be specified.\"}",
+              "tool_call_id": "call_kkhqsuww",
+              "part_kind": "tool-call"
+            }
+          ],
+          "model_name": "llama3.2",
+          "timestamp": "2025-03-11T17:02:16+00:00",
+          "kind": "response"
+        },
+        {
+          "parts": [
+            {
+              "tool_name": "final_result",
+              "content": "Final result processed.",
+              "tool_call_id": "call_kkhqsuww",
+              "timestamp": "2025-03-11T17:02:16.075871+00:00",
+              "part_kind": "tool-return"
+            }
+          ],
+          "kind": "request"
+        }
+      ],
+      "usage": {
+        "requests": 2,
+        "request_tokens": 2239,
+        "response_tokens": 36,
+        "total_tokens": 2275,
+        "details": None
+      },
+      "retries": 1,
+      "run_step": 2
+    },
+    "_new_message_index": 0
+  }
+}
+
+print(f"{result["answer"]["_state"]["parts"]["content"]}")
